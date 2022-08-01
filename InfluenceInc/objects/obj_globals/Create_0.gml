@@ -127,9 +127,22 @@ global.max_away_time = total_silos * global.per_silo_away_time;
 // at each index, store the completion level
 global.research_status = array_create (78, 0);
 
+// read the json file
+if (file_exists(working_directory + "egg_researches.json")) {
+	var rs_json = "";
+	var json_file = file_text_open_read(working_directory + "egg_researches.json");
+	while (!file_text_eof(json_file)) {
+		rs_json += file_text_readln(json_file);
+	}
+	file_text_close(json_file);
+	global.researches = json_parse(rs_json);
+}
 
+
+////////////////////////////  MATH!!!! //////////////////////////////////////
 // Figure out the farm value
 // values we need to compute earnings
+
 global.chickens = 0;
 global.hatching_rate = 10; // initial internal hatching rate, per minute
 global.laying_rate = 15; // initial laying rate, per minute
