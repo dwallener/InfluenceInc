@@ -67,8 +67,10 @@ draw_set_color (c_white);
 draw_text (2500, 395, "Upgrade");
 draw_set_color (c_red);
 
+///////////////////////////////////////////////////////////////////////////////////////////
 // Silos
 // Will need to add buttons to add silos...later, lol
+
 draw_set_color (c_white);
 draw_text (1100, 1000, "Silo");
 draw_text (1100, 1400, "Silo");
@@ -91,7 +93,11 @@ draw_text (2950, 1370, "Fueling");
 // Artifacts
 draw_text (2570, 950, "Artifacts");
 
-// Show research status
+
+/////////////////////////////////////////////////////////////////////////////////////
+// Research - this is a bit more complicated
+// Static data is stored in JSON that's read on CREATE
+
 draw_set_font (font_droid_36);
 draw_text (100, 600, "Research");
 // to save on typing
