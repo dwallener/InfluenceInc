@@ -99,70 +99,115 @@ draw_text (2570, 950, "Artifacts");
 // Static data is stored in JSON that's read on CREATE
 
 draw_set_font (font_droid_36);
-draw_text (100, 600, "Research");
+draw_text (100, 500, "Research");
 // to save on typing
 var rs = global.researches;
+var rss = global.research_status;
 var rn = "";
 
 // Tier 1
 draw_set_font (font_droid_22);
-draw_text (100, 650, "Tier 1");
+draw_text (100, 600, "Tier 1");
 // four researches in tier
 rn = rs[0][$ "name"];
-draw_text (100, 690, rn);
+draw_text (100, 640, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 645, c_red);
 rn = rs[1][$ "name"];
-draw_text (100, 720, rn);
+draw_text (100, 670, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 675, c_red);
 rn = rs[2][$ "name"];
-draw_text (100, 750, rn);
+draw_text (100, 700, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 705, c_red);
 rn = rs[3][$ "name"];
-draw_text (100, 780, rn);
+draw_text (100, 730, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 735, c_red);
+
 
 // Tier 2
 draw_set_font (font_droid_22);
-draw_text (100, 850, "Tier 2");
+draw_text (100, 800, "Tier 2");
 // five researches in tier
 rn = rs[4][$ "name"];
-draw_text (100, 890, rn);
+draw_text (100, 840, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 845, c_red);
 rn = rs[5][$ "name"];
-draw_text (100, 920, rn);
+draw_text (100, 870, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 875, c_red);
 rn = rs[6][$ "name"];
-draw_text (100, 950, rn);
+draw_text (100, 900, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 905, c_red);
 rn = rs[7][$ "name"];
-draw_text (100, 980, rn);
+draw_text (100, 930, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 935, c_red);
 rn = rs[8][$ "name"];
-draw_text (100, 1010, rn);
+draw_text (100, 960, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 965, c_red);
 
 // Tier 3
 draw_set_font (font_droid_22);
-draw_text (100, 1050, "Tier 3");
+draw_text (100, 1010, "Tier 3");
+// five researches in tier
+rn = rs[4][$ "name"];
+draw_text (100, 1050, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1055, c_red);
+rn = rs[5][$ "name"];
+draw_text (100, 1080, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1085, c_red);
+rn = rs[6][$ "name"];
+draw_text (100, 1110, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1115, c_red);
+rn = rs[7][$ "name"];
+draw_text (100, 1140, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1145, c_red);
+rn = rs[8][$ "name"];
+draw_text (100, 1170, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1175, c_red);
+
 
 // Tier 4
 draw_set_font (font_droid_22);
-draw_text (100, 1250, "Tier 4");
+draw_text (100, 1220, "Tier 4");
+// five researches in tier
+rn = rs[4][$ "name"];
+draw_text (100, 1260, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1265, c_red);
+rn = rs[5][$ "name"];
+draw_text (100, 1290, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1295, c_red);
+rn = rs[6][$ "name"];
+draw_text (100, 1320, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1325, c_red);
+rn = rs[7][$ "name"];
+draw_text (100, 1350, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1355, c_red);
+rn = rs[8][$ "name"];
+draw_text (100, 1380, (rn + " : " + string(rss[0])));
+draw_plus_box(600, 1385, c_red);
+
 
 // Tier 5
 draw_set_font (font_droid_22);
-draw_text (100, 1450, "Tier 5");
+draw_text (100, 1430, "Tier 5");
 
 // Tier 6
 draw_set_font (font_droid_22);
-draw_text (600, 650, "Tier 6");
+draw_text (700, 600, "Tier 6");
 
 // Tier 7
 draw_set_font (font_droid_22);
-draw_text (600, 850, "Tier 7");
+draw_text (700, 800, "Tier 7");
 
 // Tier 8
 draw_set_font (font_droid_22);
-draw_text (600, 1050, "Tier 8");
+draw_text (700, 1010, "Tier 8");
 
 // Tier 9
 draw_set_font (font_droid_22);
-draw_text (600, 1250, "Tier 9");
+draw_text (700, 1220, "Tier 9");
 
 // Tier 10
 draw_set_font (font_droid_22);
-draw_text (600, 1450, "Tier 10");
+draw_text (700, 1430, "Tier 10");
 
 // Tier 11
 

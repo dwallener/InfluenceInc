@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Script1",
+  "name": "draw_plus_box",
   "tags": [],
   "resourceType": "GMScript",
 }
