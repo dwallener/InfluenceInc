@@ -126,6 +126,18 @@ global.max_away_time = total_silos * global.per_silo_away_time;
 
 // at each index, store the completion level
 global.research_status = array_create (78, 0);
+// things that research works on
+global.buffs_struct = 
+{
+	egg_value_buff : 1,
+	hab_capacity_buff : 1,
+	shipping_capacity_buff : 1,
+	vehicle_number_buff : 1,
+	running_chicken_buff : 1,
+	hatchery_capacity_buff : 1,
+	egg_laying_buff : 1,
+	chicken_laying_buff : 1
+}
 
 // read the json file
 if (file_exists(working_directory + "egg_researches.json")) {
