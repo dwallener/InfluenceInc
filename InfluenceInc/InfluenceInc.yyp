@@ -3,7 +3,6 @@
     {"id":{"name":"update_hatching_rate_buff","path":"scripts/update_hatching_rate_buff/update_hatching_rate_buff.yy",},"order":7,},
     {"id":{"name":"obj_globals","path":"objects/obj_globals/obj_globals.yy",},"order":0,},
     {"id":{"name":"draw_plus_box","path":"scripts/draw_plus_box/draw_plus_box.yy",},"order":1,},
-    {"id":{"name":"scr_load_json_from_file","path":"scripts/scr_load_json_from_file/scr_load_json_from_file.yy",},"order":0,},
     {"id":{"name":"update_shipping_capacity_buff","path":"scripts/update_shipping_capacity_buff/update_shipping_capacity_buff.yy",},"order":6,},
     {"id":{"name":"update_egg_value_buff","path":"scripts/update_egg_value_buff/update_egg_value_buff.yy",},"order":2,},
     {"id":{"name":"font_droid_36","path":"fonts/font_droid_36/font_droid_36.yy",},"order":0,},

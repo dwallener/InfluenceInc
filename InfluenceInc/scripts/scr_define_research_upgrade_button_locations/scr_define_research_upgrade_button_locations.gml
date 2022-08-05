@@ -1,3 +1,4 @@
+/// @description	defines hitboxes for research upgrades, by tier/index
 /// @function		scr_define_research_upgrade_button_locations(tier, tier_index)
 /// @param {index}	the research tier we're looking at
 /// @param {index}	the research index inside that tier

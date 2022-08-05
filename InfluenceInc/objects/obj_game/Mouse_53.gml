@@ -1,6 +1,4 @@
 
-// check if click is on a research upgrade "+"
-
 // this should always be true since it's in a left button press event
 
 if (mouse_check_button_pressed(mb_left)) {

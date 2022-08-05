@@ -1,5 +1,7 @@
 /// @description Insert description here
-// You can write your code in this editor
+/// @function		scr_define_research_upgrade_button_locations(tier, tier_index)
+/// @param {index}	the research tier we're looking at
+/// @param {index}	the research index inside that tier
 
 
 

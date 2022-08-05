@@ -1,5 +1,7 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/// @description		calculates egg value research stuff using static json data
+/// @function			update_egg_value_buff
+/// @param {rs}			struct holding static json details on each research
+/// @param {rss}		array holding buff levels by research index 0..77
 
 function update_egg_value_buff(rs, rss ) {
 	// What's needed from researches JSON?

@@ -1,6 +1,9 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function update_shipping_capacity_buff(){
+/// @description		calculates shipping capacity research stuff using static json data
+/// @function			update_shipping_capacity_buff
+/// @param {rs}			struct holding static json details on each research
+/// @param {rss}		array holding buff levels by research index 0..77
+
+function update_shipping_capacity_buff() {
 	
 	buffs_on = [11, 21, 27, 30, 33, 37, 45, 52, 55, 74];
 	buff = 0;

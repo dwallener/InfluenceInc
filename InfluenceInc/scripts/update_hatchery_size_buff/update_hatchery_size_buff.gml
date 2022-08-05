@@ -1,6 +1,9 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function update_hatchery_size_buff(){
+/// @description		calculates hatchery size research stuff using static json data
+/// @function			update_hatchery_size_buff
+/// @param {rs}			struct holding static json details on each research
+/// @param {rss}		array holding buff levels by research index 0..77
+
+function update_hatchery_size_buff() {
 	// What's needed from researches JSON?
 	// Which research IDs apply
 	// level done at each tier

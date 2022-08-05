@@ -1,5 +1,8 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/// @description		calculates running chicken bonus research stuff using static json data
+/// @function			update_running_chicken_buff
+/// @param {rs}			struct holding static json details on each research
+/// @param {rss}		array holding buff levels by research index 0..77
+
 function update_running_chicken_buff() {
 	
 	buffs_on = [4, 14, 26, 44, 61, 62];
