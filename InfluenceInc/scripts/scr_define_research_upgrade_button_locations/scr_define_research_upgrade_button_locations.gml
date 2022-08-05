@@ -13,8 +13,7 @@ function scr_define_research_upgrade_button_locations(tier, tier_index) {
 	
 	switch (tier) {
 		case 1:
-			hitbox.x = 600;
-			hitbox.size = 30;
+			hitbox.x = 800;
 			switch (tier_index) {
 				case 1: hitbox.y = 645; break;
 				case 2: hitbox.y = 675; break;
@@ -22,9 +21,9 @@ function scr_define_research_upgrade_button_locations(tier, tier_index) {
 				case 4: hitbox.y = 735; break;
 				default: break;
 			}
+			break;
 		case 2:
-			hitbox.x = 600;
-			hitbox.size = 30;
+			hitbox.x = 800;
 			switch (tier_index) {
 				case 1: hitbox.y = 845; break;
 				case 2: hitbox.y = 875; break;
@@ -33,9 +32,9 @@ function scr_define_research_upgrade_button_locations(tier, tier_index) {
 				case 5: hitbox.y = 965; break;
 				default: break;
 			}
+			break;
 		case 3:
-			hitbox.x = 600;
-			hitbox.size = 30;
+			hitbox.x = 800;
 			switch (tier_index) {
 				case 1: hitbox.y = 1055; break;
 				case 2: hitbox.y = 1085; break;
@@ -44,9 +43,9 @@ function scr_define_research_upgrade_button_locations(tier, tier_index) {
 				case 5: hitbox.y = 1175; break;
 				default: break;
 			}
+			break;
 		case 4:
-			hitbox.x = 600;
-			hitbox.size = 30;
+			hitbox.x = 00;
 			switch (tier_index) {
 				case 1: hitbox.y = 1265; break;
 				case 2: hitbox.y = 1295; break;
@@ -55,6 +54,7 @@ function scr_define_research_upgrade_button_locations(tier, tier_index) {
 				case 5: hitbox.y = 1385; break;
 				default: break;
 			}
+			break;
 		default: break;
 	}
 	

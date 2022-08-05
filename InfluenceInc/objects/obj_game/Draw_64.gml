@@ -113,13 +113,13 @@ rn = rs[0][$ "name"];
 draw_text (100, 640, (rn + " : " + string(rss[0])));
 draw_plus_box(600, 645, c_red);
 rn = rs[1][$ "name"];
-draw_text (100, 670, (rn + " : " + string(rss[0])));
+draw_text (100, 670, (rn + " : " + string(rss[1])));
 draw_plus_box(600, 675, c_red);
 rn = rs[2][$ "name"];
-draw_text (100, 700, (rn + " : " + string(rss[0])));
+draw_text (100, 700, (rn + " : " + string(rss[2])));
 draw_plus_box(600, 705, c_red);
 rn = rs[3][$ "name"];
-draw_text (100, 730, (rn + " : " + string(rss[0])));
+draw_text (100, 730, (rn + " : " + string(rss[3])));
 draw_plus_box(600, 735, c_red);
 
 
