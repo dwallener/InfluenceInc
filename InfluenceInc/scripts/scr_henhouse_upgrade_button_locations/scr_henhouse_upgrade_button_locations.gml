@@ -1,5 +1,7 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/// @description	defines hitboxes for henhouse upgrades, by left/right location (1-4)
+/// @function		scr_henhouse_upgrade_button_locations(henhouse_number)
+/// @param {index}	the research tier we're looking at
+/// @param {index}	the research index inside that tier
 
 function scr_henhouse_upgrade_button_locations(henhouse_number) {
 	
