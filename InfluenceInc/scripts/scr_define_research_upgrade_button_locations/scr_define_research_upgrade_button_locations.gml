@@ -13,114 +13,49 @@ function scr_define_research_upgrade_button_locations(tier, tier_index) {
 	
 	switch (tier) {
 		case 1:
+			hitbox.x = 600;
+			hitbox.size = 30;
 			switch (tier_index) {
-				case 1: 
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 2:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 3:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 4:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 5:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
+				case 1: hitbox.y = 645; break;
+				case 2: hitbox.y = 675; break;
+				case 3: hitbox.y = 705; break;
+				case 4: hitbox.y = 735; break;
+				default: break;
 			}
 		case 2:
+			hitbox.x = 600;
+			hitbox.size = 30;
 			switch (tier_index) {
-				case 1: 
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 2:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 3:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 4:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 5:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
+				case 1: hitbox.y = 845; break;
+				case 2: hitbox.y = 875; break;
+				case 3: hitbox.y = 905; break;
+				case 4: hitbox.y = 935; break;
+				case 5: hitbox.y = 965; break;
+				default: break;
 			}
 		case 3:
+			hitbox.x = 600;
+			hitbox.size = 30;
 			switch (tier_index) {
-				case 1: 
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 2:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 3:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 4:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 5:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
+				case 1: hitbox.y = 1055; break;
+				case 2: hitbox.y = 1085; break;
+				case 3: hitbox.y = 1115; break;
+				case 4: hitbox.y = 1145; break;
+				case 5: hitbox.y = 1175; break;
+				default: break;
 			}
 		case 4:
+			hitbox.x = 600;
+			hitbox.size = 30;
 			switch (tier_index) {
-				case 1: 
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 2:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 3:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 4:
-					hitbox.x = 0;
-					hitbox.y = 0;
-					hitbox.size = 20;
-					break;
-				case 5:
+				case 1: hitbox.y = 1265; break;
+				case 2: hitbox.y = 1295; break;
+				case 3: hitbox.y = 1325; break;
+				case 4: hitbox.y = 1355; break;
+				case 5: hitbox.y = 1385; break;
+				default: break;
 			}
-		default: ;
+		default: break;
 	}
 	
 	return hitbox;	
