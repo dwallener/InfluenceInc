@@ -14,6 +14,7 @@
     {"id":{"name":"update_hatchery_size_buff","path":"scripts/update_hatchery_size_buff/update_hatchery_size_buff.yy",},"order":8,},
     {"id":{"name":"update_running_chicken_buff","path":"scripts/update_running_chicken_buff/update_running_chicken_buff.yy",},"order":5,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
+    {"id":{"name":"scr_define_research_upgrade_button_locations","path":"scripts/scr_define_research_upgrade_button_locations/scr_define_research_upgrade_button_locations.yy",},"order":9,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

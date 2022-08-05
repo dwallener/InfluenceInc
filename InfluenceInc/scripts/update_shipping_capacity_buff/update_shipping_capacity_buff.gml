@@ -9,4 +9,5 @@ function update_shipping_capacity_buff(){
 		buff += rs[buffs_on[i]][$ per_level] * rss[buffs_on[i]];
 	}
 
+	return buff;
 }

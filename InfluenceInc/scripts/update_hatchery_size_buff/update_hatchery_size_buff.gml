@@ -11,4 +11,6 @@ function update_hatchery_size_buff(){
 	for (i = 0; i < array_length_1d(buffs_on); i++) {
 		buff += rs[buffs_on[i]][$ per_level] * rss[buffs_on[i]];
 	}
+	
+	return buff;
 }

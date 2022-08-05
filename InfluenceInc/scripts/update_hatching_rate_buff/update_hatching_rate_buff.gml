@@ -12,4 +12,5 @@ function update_hatching_rate_buff () {
 		buff += rs[buffs_on[i]][$ per_level] * rss[buffs_on[i]];
 	}
 
+	return buff;
 }
