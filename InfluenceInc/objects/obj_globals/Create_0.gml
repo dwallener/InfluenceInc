@@ -126,7 +126,17 @@ global.max_away_time = total_silos * global.per_silo_away_time;
 
 // at each index, store the completion level
 global.research_status = array_create (78, 0);
+
 // things that research works on
+// this is set by the mouse detect event
+global.research_upgraded = 
+{
+	tier : 0,
+	index : 0
+}
+
+// this holds the current calculated buff states
+// it's a multiplier, so "1" means x1.0 means no buff
 global.buffs_struct = 
 {
 	egg_value_buff : 1,
