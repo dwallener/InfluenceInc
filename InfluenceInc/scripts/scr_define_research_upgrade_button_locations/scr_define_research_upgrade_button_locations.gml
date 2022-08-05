@@ -14,7 +14,7 @@ function scr_define_research_upgrade_button_locations(tier, tier_index) {
 	
 	switch (tier) {
 		case 1:
-			hitbox.x = 800;
+			hitbox.x = 600;
 			switch (tier_index) {
 				case 1: hitbox.y = 645; break;
 				case 2: hitbox.y = 675; break;
@@ -24,7 +24,7 @@ function scr_define_research_upgrade_button_locations(tier, tier_index) {
 			}
 			break;
 		case 2:
-			hitbox.x = 800;
+			hitbox.x = 600;
 			switch (tier_index) {
 				case 1: hitbox.y = 845; break;
 				case 2: hitbox.y = 875; break;
