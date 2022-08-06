@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"scr_deduct_henhouse_cost","path":"scripts/scr_deduct_henhouse_cost/scr_deduct_henhouse_cost.yy",},"order":14,},
     {"id":{"name":"scr_print_SI_num","path":"scripts/scr_print_SI_num/scr_print_SI_num.yy",},"order":13,},
     {"id":{"name":"obj_henhouse_supershack","path":"objects/obj_henhouse_supershack/obj_henhouse_supershack.yy",},"order":4,},
     {"id":{"name":"update_hatching_rate_buff","path":"scripts/update_hatching_rate_buff/update_hatching_rate_buff.yy",},"order":6,},

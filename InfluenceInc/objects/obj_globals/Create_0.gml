@@ -52,6 +52,27 @@ global.henhouse_capacities[16] = 50000000;
 global.henhouse_capacities[17] = 100000000;
 global.henhouse_capacities[18] = 600000000;
 
+global.henhouse_costs = array_create (18, 0);
+// each upgrade of a specific level costs more than the previous, up to 4 max
+global.henhouse_costs[0] = [11.26, 29.12, 56.32, 96.58];
+global.henhouse_costs[1] = [466, 802, 1256, 1862];
+global.henhouse_costs[2] = [12266, 23532, 40898, 66810];
+global.henhouse_costs[3] = [340830, 733774, 1418850, 2551204];
+global.henhouse_costs[4] = 5000;
+global.henhouse_costs[5] = 10000;
+global.henhouse_costs[6] = 20000;
+global.henhouse_costs[7] = 50000;
+global.henhouse_costs[8] = 100000;
+global.henhouse_costs[9] = 200000;
+global.henhouse_costs[10] = 500000;
+global.henhouse_costs[11] = 1000000;
+global.henhouse_costs[12] = 2000000;
+global.henhouse_costs[13] = 5000000;
+global.henhouse_costs[14] = 10000000;
+global.henhouse_costs[15] = 25000000;
+global.henhouse_costs[16] = 50000000;
+global.henhouse_costs[17] = 100000000;
+global.henhouse_costs[18] = 600000000;
 
 //////////////////////////////////////////////////////////////////////////
 // Set up the shipping data

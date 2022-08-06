@@ -20,8 +20,8 @@ var dollars = global.dollars;
 
 draw_set_color (c_red);
 
-draw_text (100, 50, "Farm Value: " + string(scr_print_SI_num(farm_value)));
-draw_text (100, 90, "Chickens:   " + string(chickens));
+draw_text (100, 50, "Farm Value: $" + string(scr_print_SI_num(farm_value)));
+draw_text (100, 90, "Chickens:   " + string(floor(chickens)));
 draw_text (100, 130, "Dollars:    " + string(dollars));
 draw_text (100, 170, "Egg Value:  " + string(global.egg_value));
 
