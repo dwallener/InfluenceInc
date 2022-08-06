@@ -27,7 +27,7 @@ global.chicken_capacity += global.henhouse_capacities[global.henhouses[0]];
 global.chicken_capacity += global.henhouse_capacities[global.henhouses[1]];
 global.chicken_capacity += global.henhouse_capacities[global.henhouses[2]];
 global.chicken_capacity += global.henhouse_capacities[global.henhouses[3]];
-
+ 
 // update the bank account
 global.dollars += min(layed, shipped) * global.egg_value;
 
