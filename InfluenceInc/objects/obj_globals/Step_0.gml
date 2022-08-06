@@ -6,7 +6,7 @@
 
 
 // update farm value
-global.farm_value = 30000 * global.accounting_tricks * global.egg_value * global.laying_rate * global.earnings_bonus * power((global.chicken_running_bonus - 4), 0.25) * global.egg_level_bonus * (global.Pe + 0.2 * global.Pu + power(global.Pv, 0.6) + 0.25 * global.Pp);
+//global.farm_value = 30000 * global.accounting_tricks * global.egg_value * global.laying_rate * global.earnings_bonus * power((global.chicken_running_bonus - 4), 0.25) * global.egg_level_bonus * (global.Pe + 0.2 * global.Pu + power(global.Pv, 0.6) + 0.25 * global.Pp);
 
 // time scale - rates are per minute, 30 fps
 var time_scale = 60 * 30
@@ -20,6 +20,13 @@ var layed = global.laying_rate / time_scale;
 var shipped = global.shipping_rate / time_scale;
 // can't sell more than can be shipped, rest goes into the ether
 global.eggs += min (layed, shipped);
+
+// update henhouse capacity
+global.chicken_capacity = 0;
+global.chicken_capacity += global.henhouse_capacities[global.henhouses[0]];
+global.chicken_capacity += global.henhouse_capacities[global.henhouses[1]];
+global.chicken_capacity += global.henhouse_capacities[global.henhouses[2]];
+global.chicken_capacity += global.henhouse_capacities[global.henhouses[3]];
 
 // update the bank account
 global.dollars += min(layed, shipped) * global.egg_value;
@@ -53,4 +60,5 @@ global.shipping_capacity =	capacities[trucks[0]] +
 							capacities[trucks[9]] +
 							capacities[trucks[10]] +
 							capacities[trucks[11]]; 
+						
 						
