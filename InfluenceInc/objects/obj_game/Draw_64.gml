@@ -128,19 +128,19 @@ draw_set_font (font_droid_22);
 draw_text (100, 800, "Tier 2");
 // five researches in tier
 rn = rs[4][$ "name"];
-draw_text (100, 840, (rn + " : " + string(rss[0])));
+draw_text (100, 840, (rn + " : " + string(rss[4])));
 draw_plus_box(600, 845, c_red);
 rn = rs[5][$ "name"];
-draw_text (100, 870, (rn + " : " + string(rss[0])));
+draw_text (100, 870, (rn + " : " + string(rss[5])));
 draw_plus_box(600, 875, c_red);
 rn = rs[6][$ "name"];
-draw_text (100, 900, (rn + " : " + string(rss[0])));
+draw_text (100, 900, (rn + " : " + string(rss[6])));
 draw_plus_box(600, 905, c_red);
 rn = rs[7][$ "name"];
-draw_text (100, 930, (rn + " : " + string(rss[0])));
+draw_text (100, 930, (rn + " : " + string(rss[7])));
 draw_plus_box(600, 935, c_red);
 rn = rs[8][$ "name"];
-draw_text (100, 960, (rn + " : " + string(rss[0])));
+draw_text (100, 960, (rn + " : " + string(rss[8])));
 draw_plus_box(600, 965, c_red);
 
 // Tier 3
@@ -148,19 +148,19 @@ draw_set_font (font_droid_22);
 draw_text (100, 1010, "Tier 3");
 // five researches in tier
 rn = rs[4][$ "name"];
-draw_text (100, 1050, (rn + " : " + string(rss[0])));
+draw_text (100, 1050, (rn + " : " + string(rss[9])));
 draw_plus_box(600, 1055, c_red);
 rn = rs[5][$ "name"];
-draw_text (100, 1080, (rn + " : " + string(rss[0])));
+draw_text (100, 1080, (rn + " : " + string(rss[10])));
 draw_plus_box(600, 1085, c_red);
 rn = rs[6][$ "name"];
-draw_text (100, 1110, (rn + " : " + string(rss[0])));
+draw_text (100, 1110, (rn + " : " + string(rss[11])));
 draw_plus_box(600, 1115, c_red);
 rn = rs[7][$ "name"];
-draw_text (100, 1140, (rn + " : " + string(rss[0])));
+draw_text (100, 1140, (rn + " : " + string(rss[12])));
 draw_plus_box(600, 1145, c_red);
 rn = rs[8][$ "name"];
-draw_text (100, 1170, (rn + " : " + string(rss[0])));
+draw_text (100, 1170, (rn + " : " + string(rss[13])));
 draw_plus_box(600, 1175, c_red);
 
 
@@ -169,19 +169,19 @@ draw_set_font (font_droid_22);
 draw_text (100, 1220, "Tier 4");
 // five researches in tier
 rn = rs[4][$ "name"];
-draw_text (100, 1260, (rn + " : " + string(rss[0])));
+draw_text (100, 1260, (rn + " : " + string(rss[14])));
 draw_plus_box(600, 1265, c_red);
 rn = rs[5][$ "name"];
-draw_text (100, 1290, (rn + " : " + string(rss[0])));
+draw_text (100, 1290, (rn + " : " + string(rss[15])));
 draw_plus_box(600, 1295, c_red);
 rn = rs[6][$ "name"];
-draw_text (100, 1320, (rn + " : " + string(rss[0])));
+draw_text (100, 1320, (rn + " : " + string(rss[16])));
 draw_plus_box(600, 1325, c_red);
 rn = rs[7][$ "name"];
-draw_text (100, 1350, (rn + " : " + string(rss[0])));
+draw_text (100, 1350, (rn + " : " + string(rss[17])));
 draw_plus_box(600, 1355, c_red);
 rn = rs[8][$ "name"];
-draw_text (100, 1380, (rn + " : " + string(rss[0])));
+draw_text (100, 1380, (rn + " : " + string(rss[18])));
 draw_plus_box(600, 1385, c_red);
 
 
