@@ -67,6 +67,7 @@ if (mouse_check_button_pressed(mb_left)) {
 	hitbox = scr_henhouse_upgrade_button_locations(3);
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
 		global.henhouses[2] += 1;
+		scr_display_henhouse_3(global.henhouses[2]);
 	}
 	
 	hitbox = scr_henhouse_upgrade_button_locations(4);

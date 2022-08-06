@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pool_redneck_1",
-    "path": "sprites/spr_pool_redneck_1/spr_pool_redneck_1.yy",
+    "name": "spr_patio_campfire",
+    "path": "sprites/spr_patio_campfire/spr_patio_campfire.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pool_shorthouse",
+  "name": "obj_patio_coop",
   "tags": [],
   "resourceType": "GMObject",
 }
