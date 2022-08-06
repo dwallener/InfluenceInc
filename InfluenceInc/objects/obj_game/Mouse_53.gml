@@ -49,28 +49,43 @@ if (mouse_check_button_pressed(mb_left)) {
 	
 	// check coordinates
 	hitbox = scr_henhouse_upgrade_button_locations(1);
-
 	// Henhouse 1 - the house
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
-		global.henhouses[0] += 1;
-		scr_display_henhouse_1(global.henhouses[0]);
-		scr_deduct_henhouse_cost (global.henhouses, 0);
+		
+		// only do this if there's enough cash!
+		var cost = scr_calculate_henhouse_cost(global.henhouses, 0);
+		if (cost > global.dollars)	{ show_message("You're too poor!"); }
+		else {
+			global.henhouses[0] += 1;
+			scr_display_henhouse_1(global.henhouses[0]);
+			scr_deduct_henhouse_cost (global.henhouses, 0);
+		}
 	}
 	
 	// Henhouse 2 - the pool
 	hitbox = scr_henhouse_upgrade_button_locations(2);
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
-		global.henhouses[1] += 1;
-		scr_display_henhouse_2(global.henhouses[1]);
-		scr_deduct_henhouse_cost (global.henhouses, 1);
+		// only do this if there's enough cash!
+		var cost = scr_calculate_henhouse_cost(global.henhouses, 1);
+		if (cost > global.dollars)	{ show_message("You're too poor!"); }
+		else {
+			global.henhouses[1] += 1;
+			scr_display_henhouse_1(global.henhouses[1]);
+			scr_deduct_henhouse_cost (global.henhouses, 1);
+		}
 	}
 	
 	// Henhouse 3 - the patio
 	hitbox = scr_henhouse_upgrade_button_locations(3);
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
-		global.henhouses[2] += 1;
-		scr_display_henhouse_3(global.henhouses[2]);
-		scr_deduct_henhouse_cost (global.henhouses, 2);
+		// only do this if there's enough cash!
+		var cost = scr_calculate_henhouse_cost(global.henhouses, 2);
+		if (cost > global.dollars)	{ show_message("You're too poor!"); }
+		else {
+			global.henhouses[0] += 1;
+			scr_display_henhouse_1(global.henhouses[2]);
+			scr_deduct_henhouse_cost (global.henhouses, 2);
+		}
 	}
 	
 	hitbox = scr_henhouse_upgrade_button_locations(4);
