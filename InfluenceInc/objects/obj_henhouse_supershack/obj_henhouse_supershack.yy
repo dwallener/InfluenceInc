@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_henhouse_supershack",
+    "path": "sprites/spr_henhouse_supershack/spr_henhouse_supershack.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

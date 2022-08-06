@@ -19,6 +19,7 @@
     {"id":{"name":"update_hatchery_size_buff","path":"scripts/update_hatchery_size_buff/update_hatchery_size_buff.yy",},"order":7,},
     {"id":{"name":"spr_henhouse_shack","path":"sprites/spr_henhouse_shack/spr_henhouse_shack.yy",},"order":2,},
     {"id":{"name":"update_running_chicken_buff","path":"scripts/update_running_chicken_buff/update_running_chicken_buff.yy",},"order":4,},
+    {"id":{"name":"scr_display_henhouse","path":"scripts/scr_display_henhouse/scr_display_henhouse.yy",},"order":10,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"scr_define_research_upgrade_button_locations","path":"scripts/scr_define_research_upgrade_button_locations/scr_define_research_upgrade_button_locations.yy",},"order":8,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

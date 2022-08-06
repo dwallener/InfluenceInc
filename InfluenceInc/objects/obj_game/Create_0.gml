@@ -5,6 +5,9 @@
 draw_set_color(c_red);
 draw_set_font(font_droid_36);
 	
+// drop in the original henhouse coop
+global.inst_henhouse_1 = instance_create_layer(1000, 100, "Instances", obj_henhouse_coop);
+
 
 
 

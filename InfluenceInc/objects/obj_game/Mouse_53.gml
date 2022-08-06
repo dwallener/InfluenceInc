@@ -52,6 +52,7 @@ if (mouse_check_button_pressed(mb_left)) {
 	//show_message (string(xx) + " " + string(yy) + "/n" + string(hitbox.x) + " " + string(hitbox.y) + " " + string(hitbox.size));
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
 		global.henhouses[0] += 1;
+		scr_display_henhouse(global.henhouses[0]);
 	}
 	hitbox = scr_henhouse_upgrade_button_locations(2);
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
