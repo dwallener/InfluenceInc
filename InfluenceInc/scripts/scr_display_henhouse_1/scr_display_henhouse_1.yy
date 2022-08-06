@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_display_henhouse",
+  "name": "scr_display_henhouse_1",
   "tags": [],
   "resourceType": "GMScript",
 }

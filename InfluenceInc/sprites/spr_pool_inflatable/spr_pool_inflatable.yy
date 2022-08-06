@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 249,
   "bbox_top": 0,
-  "bbox_bottom": 235,
+  "bbox_bottom": 255,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 250,
-  "height": 236,
+  "height": 256,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c92537d1-7fba-4aae-a409-6ec8dcf5f941","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c92537d1-7fba-4aae-a409-6ec8dcf5f941","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"LayerId":{"name":"a541cd00-5caf-4c26-82a2-fecc569ddfe2","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_henhouse_coop","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"resourceVersion":"1.0","name":"c92537d1-7fba-4aae-a409-6ec8dcf5f941","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"93856634-a2eb-4994-8905-8098ae184d65","path":"sprites/spr_pool_inflatable/spr_pool_inflatable.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"93856634-a2eb-4994-8905-8098ae184d65","path":"sprites/spr_pool_inflatable/spr_pool_inflatable.yy",},"LayerId":{"name":"69ab069c-d659-4238-89b2-ccef09536498","path":"sprites/spr_pool_inflatable/spr_pool_inflatable.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pool_inflatable","path":"sprites/spr_pool_inflatable/spr_pool_inflatable.yy",},"resourceVersion":"1.0","name":"93856634-a2eb-4994-8905-8098ae184d65","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_henhouse_coop","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},
+    "spriteId": {"name":"spr_pool_inflatable","path":"sprites/spr_pool_inflatable/spr_pool_inflatable.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"375d154b-faf9-4104-a22d-39d7786da75a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c92537d1-7fba-4aae-a409-6ec8dcf5f941","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"68218ea7-554d-4706-a739-60e951072ba6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"93856634-a2eb-4994-8905-8098ae184d65","path":"sprites/spr_pool_inflatable/spr_pool_inflatable.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_henhouse_coop","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},
+    "parent": {"name":"spr_pool_inflatable","path":"sprites/spr_pool_inflatable/spr_pool_inflatable.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_henhouse_coop",
+    "name": "spr_pool_inflatable",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a541cd00-5caf-4c26-82a2-fecc569ddfe2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"69ab069c-d659-4238-89b2-ccef09536498","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_henhouse_coop",
+  "name": "spr_pool_inflatable",
   "tags": [],
   "resourceType": "GMSprite",
 }

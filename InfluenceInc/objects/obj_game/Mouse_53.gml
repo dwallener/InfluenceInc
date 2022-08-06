@@ -49,19 +49,26 @@ if (mouse_check_button_pressed(mb_left)) {
 	
 	// check coordinates
 	hitbox = scr_henhouse_upgrade_button_locations(1);
-	//show_message (string(xx) + " " + string(yy) + "/n" + string(hitbox.x) + " " + string(hitbox.y) + " " + string(hitbox.size));
+
+	// Henhouse 1 - the house
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
 		global.henhouses[0] += 1;
-		scr_display_henhouse(global.henhouses[0]);
+		scr_display_henhouse_1(global.henhouses[0]);
 	}
+	
+	// Henhouse 2 - the pool
 	hitbox = scr_henhouse_upgrade_button_locations(2);
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
 		global.henhouses[1] += 1;
+		scr_display_henhouse_2(global.henhouses[1]);
 	}
+	
+	// Henhouse 3 - the patio
 	hitbox = scr_henhouse_upgrade_button_locations(3);
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
 		global.henhouses[2] += 1;
 	}
+	
 	hitbox = scr_henhouse_upgrade_button_locations(4);
 	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
 		global.henhouses[3] += 1;

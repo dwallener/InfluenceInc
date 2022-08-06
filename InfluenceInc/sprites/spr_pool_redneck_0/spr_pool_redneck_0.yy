@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 249,
   "bbox_top": 0,
-  "bbox_bottom": 235,
+  "bbox_bottom": 248,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 250,
-  "height": 236,
+  "height": 249,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c92537d1-7fba-4aae-a409-6ec8dcf5f941","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c92537d1-7fba-4aae-a409-6ec8dcf5f941","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"LayerId":{"name":"a541cd00-5caf-4c26-82a2-fecc569ddfe2","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_henhouse_coop","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"resourceVersion":"1.0","name":"c92537d1-7fba-4aae-a409-6ec8dcf5f941","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"48db4f2c-c610-4e89-a63a-77f5a37c63fb","path":"sprites/spr_pool_redneck_0/spr_pool_redneck_0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"48db4f2c-c610-4e89-a63a-77f5a37c63fb","path":"sprites/spr_pool_redneck_0/spr_pool_redneck_0.yy",},"LayerId":{"name":"a1b3a198-abd0-486a-9083-a5d246b8bb9a","path":"sprites/spr_pool_redneck_0/spr_pool_redneck_0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pool_redneck_0","path":"sprites/spr_pool_redneck_0/spr_pool_redneck_0.yy",},"resourceVersion":"1.0","name":"48db4f2c-c610-4e89-a63a-77f5a37c63fb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_henhouse_coop","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},
+    "spriteId": {"name":"spr_pool_redneck_0","path":"sprites/spr_pool_redneck_0/spr_pool_redneck_0.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"375d154b-faf9-4104-a22d-39d7786da75a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c92537d1-7fba-4aae-a409-6ec8dcf5f941","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"31a2cec6-e6c8-48e9-a9e0-e70933337a17","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"48db4f2c-c610-4e89-a63a-77f5a37c63fb","path":"sprites/spr_pool_redneck_0/spr_pool_redneck_0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_henhouse_coop","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},
+    "parent": {"name":"spr_pool_redneck_0","path":"sprites/spr_pool_redneck_0/spr_pool_redneck_0.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_henhouse_coop",
+    "name": "spr_pool_redneck_0",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a541cd00-5caf-4c26-82a2-fecc569ddfe2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a1b3a198-abd0-486a-9083-a5d246b8bb9a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_henhouse_coop",
+  "name": "spr_pool_redneck_0",
   "tags": [],
   "resourceType": "GMSprite",
 }
