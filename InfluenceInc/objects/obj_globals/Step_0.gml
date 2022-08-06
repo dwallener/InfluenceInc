@@ -42,7 +42,13 @@ global.Pp = global.hatching_rate * global.max_away_time;
 global.egg_level_bonus = global.egg_level + 2; // 2 .. 20
 global.egg_value = global.egg_value_array[global.egg_level];
 
-global.farm_value = 30000 * global.accounting_tricks * global.egg_value * global.laying_rate * global.earnings_bonus * power((global.chicken_running_bonus - 4), 0.25) * global.egg_level_bonus * (global.Pe + 0.2 * global.Pu + power(global.Pv, 0.6) + 0.25 * global.Pp);
+global.P = global.chickens;
+global.Pe = global.P * min(1, (global.shipping_rate/global.laying_rate));
+global.Pu = global.P - global.Pe;
+global.Pv = global.chicken_capacity - global.chickens;
+global.Pp = global.hatching_rate * global.max_away_time;
+
+global.farm_value = 30000 * global.accounting_tricks * global.egg_value * global.laying_rate * global.earnings_bonus * max(1, power((global.chicken_running_bonus - 4), 0.25)) * global.egg_level_bonus * (global.Pe + 0.2 * global.Pu + power(global.Pv, 0.6) + 0.25 * global.Pp);
 
 trucks = global.trucks;
 levels = global.truck_levels;
