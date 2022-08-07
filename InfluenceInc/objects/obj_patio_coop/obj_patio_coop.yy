@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_patio_shack",
-    "path": "sprites/spr_patio_shack/spr_patio_shack.yy",
+    "name": "spr_patio_coop",
+    "path": "sprites/spr_patio_coop/spr_patio_coop.yy",
   },
   "solid": false,
   "visible": true,

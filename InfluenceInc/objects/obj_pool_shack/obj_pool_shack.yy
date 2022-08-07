@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pool_coop",
-    "path": "sprites/spr_pool_coop/spr_pool_coop.yy",
+    "name": "spr_pool_shack",
+    "path": "sprites/spr_pool_shack/spr_pool_shack.yy",
   },
   "solid": false,
   "visible": true,
