@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_patio_patio_small_bbq",
-    "path": "sprites/spr_patio_patio_small_bbq/spr_patio_patio_small_bbq.yy",
+    "name": "spr_patio_shorthouse",
+    "path": "sprites/spr_patio_shorthouse/spr_patio_shorthouse.yy",
   },
   "solid": false,
   "visible": true,

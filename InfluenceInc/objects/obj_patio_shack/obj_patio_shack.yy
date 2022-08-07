@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_patio_barrel_fire",
-    "path": "sprites/spr_patio_barrel_fire/spr_patio_barrel_fire.yy",
+    "name": "spr_patio_coop",
+    "path": "sprites/spr_patio_coop/spr_patio_coop.yy",
   },
   "solid": false,
   "visible": true,

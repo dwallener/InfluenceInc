@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_patio_dumpster_fire",
-    "path": "sprites/spr_patio_dumpster_fire/spr_patio_dumpster_fire.yy",
+    "name": "spr_patio_supershack",
+    "path": "sprites/spr_patio_supershack/spr_patio_supershack.yy",
   },
   "solid": false,
   "visible": true,

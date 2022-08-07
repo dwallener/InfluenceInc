@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"75f9441f-8275-449f-b66b-97b5877bb492","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"75f9441f-8275-449f-b66b-97b5877bb492","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"LayerId":{"name":"b27f127e-2aa2-4503-8e6c-d266289f8d07","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_henhouse_coop","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"resourceVersion":"1.0","name":"75f9441f-8275-449f-b66b-97b5877bb492","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"55828d75-9123-4193-a753-408c6b2c4875","path":"sprites/spr_patio_shack/spr_patio_shack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"55828d75-9123-4193-a753-408c6b2c4875","path":"sprites/spr_patio_shack/spr_patio_shack.yy",},"LayerId":{"name":"3d4f732d-c5db-4ed1-bd1d-cfbe0311062b","path":"sprites/spr_patio_shack/spr_patio_shack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_patio_shack","path":"sprites/spr_patio_shack/spr_patio_shack.yy",},"resourceVersion":"1.0","name":"55828d75-9123-4193-a753-408c6b2c4875","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_henhouse_coop","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},
+    "spriteId": {"name":"spr_patio_shack","path":"sprites/spr_patio_shack/spr_patio_shack.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3bf4e2ed-87a5-45a9-8074-20ef9ccda471","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"75f9441f-8275-449f-b66b-97b5877bb492","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"000492a0-4fb5-4995-baf1-12eec814c22f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"55828d75-9123-4193-a753-408c6b2c4875","path":"sprites/spr_patio_shack/spr_patio_shack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_henhouse_coop","path":"sprites/spr_henhouse_coop/spr_henhouse_coop.yy",},
+    "parent": {"name":"spr_patio_shack","path":"sprites/spr_patio_shack/spr_patio_shack.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_henhouse_coop",
+    "name": "spr_patio_shack",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b27f127e-2aa2-4503-8e6c-d266289f8d07","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3d4f732d-c5db-4ed1-bd1d-cfbe0311062b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_henhouse_coop",
+  "name": "spr_patio_shack",
   "tags": [],
   "resourceType": "GMSprite",
 }

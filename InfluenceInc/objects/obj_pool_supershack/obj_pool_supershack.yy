@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pool_redneck_0",
-    "path": "sprites/spr_pool_redneck_0/spr_pool_redneck_0.yy",
+    "name": "spr_pool_supershack",
+    "path": "sprites/spr_pool_supershack/spr_pool_supershack.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pool_inflatable",
-    "path": "sprites/spr_pool_inflatable/spr_pool_inflatable.yy",
+    "name": "spr_pool_coop",
+    "path": "sprites/spr_pool_coop/spr_pool_coop.yy",
   },
   "solid": false,
   "visible": true,

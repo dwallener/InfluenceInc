@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_patio_campfire",
-    "path": "sprites/spr_patio_campfire/spr_patio_campfire.yy",
+    "name": "spr_patio_shack",
+    "path": "sprites/spr_patio_shack/spr_patio_shack.yy",
   },
   "solid": false,
   "visible": true,

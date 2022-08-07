@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pool_redneck_1",
-    "path": "sprites/spr_pool_redneck_1/spr_pool_redneck_1.yy",
+    "name": "spr_pool_shorthouse",
+    "path": "sprites/spr_pool_shorthouse/spr_pool_shorthouse.yy",
   },
   "solid": false,
   "visible": true,
