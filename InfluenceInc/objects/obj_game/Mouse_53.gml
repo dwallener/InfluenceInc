@@ -15,6 +15,19 @@ if (mouse_check_button_pressed(mb_left)) {
 		size : 30
 	}
 	
+	
+	///////////////////////////////////////////////////////////////////////
+	// Research icon hitbox
+	
+	hitbox.x = global.hitbox_icon_research[0];
+	hitbox.y = global.hitbox_icon_research[1];
+	hitbox.size = global.hitbox_icon_research[2];
+	if point_in_rectangle(xx, yy, hitbox.x, hitbox.y, hitbox.x+hitbox.size, hitbox.y+hitbox.size) {
+		global.show_research_popup = true;
+		show_message("You hit the icon!");
+	}
+	
+	
 	///////////////////////////////////////////////////////////////////////
 	// Research hitboxes
 	
