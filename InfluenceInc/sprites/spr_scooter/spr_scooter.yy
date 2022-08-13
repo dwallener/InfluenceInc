@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 7,
-  "bbox_right": 57,
-  "bbox_top": 3,
-  "bbox_bottom": 60,
+  "bbox_left": 0,
+  "bbox_right": 63,
+  "bbox_top": 0,
+  "bbox_bottom": 50,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 64,
-  "height": 64,
+  "height": 51,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6dc60896-3c33-44df-9a80-632bf698b831","path":"sprites/spr_icon_chicken/spr_icon_chicken.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6dc60896-3c33-44df-9a80-632bf698b831","path":"sprites/spr_icon_chicken/spr_icon_chicken.yy",},"LayerId":{"name":"e1375963-2192-4d35-aef9-3ee502362f89","path":"sprites/spr_icon_chicken/spr_icon_chicken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_icon_chicken","path":"sprites/spr_icon_chicken/spr_icon_chicken.yy",},"resourceVersion":"1.0","name":"6dc60896-3c33-44df-9a80-632bf698b831","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f94798a1-3619-4190-b99f-f1e116c6ecf6","path":"sprites/spr_scooter/spr_scooter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f94798a1-3619-4190-b99f-f1e116c6ecf6","path":"sprites/spr_scooter/spr_scooter.yy",},"LayerId":{"name":"03e694d1-ba8e-4754-b1ff-5b72d89fcfad","path":"sprites/spr_scooter/spr_scooter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_scooter","path":"sprites/spr_scooter/spr_scooter.yy",},"resourceVersion":"1.0","name":"f94798a1-3619-4190-b99f-f1e116c6ecf6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_icon_chicken","path":"sprites/spr_icon_chicken/spr_icon_chicken.yy",},
+    "spriteId": {"name":"spr_scooter","path":"sprites/spr_scooter/spr_scooter.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e0715a9a-8ae6-41db-a31d-a006a0a8f5d1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6dc60896-3c33-44df-9a80-632bf698b831","path":"sprites/spr_icon_chicken/spr_icon_chicken.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"4caef353-961d-4b86-ab83-38956f4f6974","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f94798a1-3619-4190-b99f-f1e116c6ecf6","path":"sprites/spr_scooter/spr_scooter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_icon_chicken","path":"sprites/spr_icon_chicken/spr_icon_chicken.yy",},
+    "parent": {"name":"spr_scooter","path":"sprites/spr_scooter/spr_scooter.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_icon_chicken",
+    "name": "spr_scooter",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e1375963-2192-4d35-aef9-3ee502362f89","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"03e694d1-ba8e-4754-b1ff-5b72d89fcfad","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_icon_chicken",
+  "name": "spr_scooter",
   "tags": [],
   "resourceType": "GMSprite",
 }
