@@ -41,6 +41,7 @@
     {"id":{"name":"spr_icon_research","path":"sprites/spr_icon_research/spr_icon_research.yy",},"order":15,},
     {"id":{"name":"update_fleet_size_buff","path":"scripts/update_fleet_size_buff/update_fleet_size_buff.yy",},"order":3,},
     {"id":{"name":"obj_henhouse_shack","path":"objects/obj_henhouse_shack/obj_henhouse_shack.yy",},"order":3,},
+    {"id":{"name":"scr_draw_standard_UI_panel","path":"scripts/scr_draw_standard_UI_panel/scr_draw_standard_UI_panel.yy",},"order":20,},
     {"id":{"name":"spr_henhouse_shorthouse","path":"sprites/spr_henhouse_shorthouse/spr_henhouse_shorthouse.yy",},"order":12,},
     {"id":{"name":"obj_pool_shack","path":"objects/obj_pool_shack/obj_pool_shack.yy",},"order":6,},
     {"id":{"name":"ts_tilecraft","path":"tilesets/ts_tilecraft/ts_tilecraft.yy",},"order":1,},
