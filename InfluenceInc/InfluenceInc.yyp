@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_tileset_tilecraft","path":"sprites/spr_tileset_tilecraft/spr_tileset_tilecraft.yy",},"order":23,},
     {"id":{"name":"spr_like_balloon","path":"sprites/spr_like_balloon/spr_like_balloon.yy",},"order":21,},
     {"id":{"name":"obj_like_balloon","path":"objects/obj_like_balloon/obj_like_balloon.yy",},"order":19,},
     {"id":{"name":"scr_deduct_henhouse_cost","path":"scripts/scr_deduct_henhouse_cost/scr_deduct_henhouse_cost.yy",},"order":14,},
@@ -42,6 +43,7 @@
     {"id":{"name":"obj_henhouse_shack","path":"objects/obj_henhouse_shack/obj_henhouse_shack.yy",},"order":3,},
     {"id":{"name":"spr_henhouse_shorthouse","path":"sprites/spr_henhouse_shorthouse/spr_henhouse_shorthouse.yy",},"order":12,},
     {"id":{"name":"obj_pool_shack","path":"objects/obj_pool_shack/obj_pool_shack.yy",},"order":6,},
+    {"id":{"name":"ts_tilecraft","path":"tilesets/ts_tilecraft/ts_tilecraft.yy",},"order":1,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":1,},
     {"id":{"name":"scr_scooter_movement_demo","path":"scripts/scr_scooter_movement_demo/scr_scooter_movement_demo.yy",},"order":16,},
     {"id":{"name":"obj_pool_shorthouse","path":"objects/obj_pool_shorthouse/obj_pool_shorthouse.yy",},"order":8,},
