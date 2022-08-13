@@ -31,6 +31,9 @@ function scr_scooter_movement_demo(scooter_speed, inst_scooter, inst_puff){
 	
 	// now big switch statement to make movement stay on the road
 	
+	// need to do some things only the first time into a switch
+	direction_change = false;
+	
 	// rows on the outside
 	// columns on the inside
 	switch (tile_location[0]) {
@@ -107,12 +110,18 @@ function scr_scooter_movement_demo(scooter_speed, inst_scooter, inst_puff){
 				case 3 : break;
 				case 4 : 
 					scooter_puff.direction = 270;
+					// move the smoke, because the scooter changes orientation
+					scooter_puff.x = scooter.x;
+					scooter_puff.y = scooter.y - 96;
 					scooter.direction = 270; 
 					scooter.image_angle = 270; 
 					break; // turn south again
 				case 5 : break;
 				case 6 : 
 					scooter_puff.direction = 180;
+					// move the smoke, because the scooter changes orientation
+					scooter_puff.x = scooter.x + 64;
+					scooter_puff.y = scooter.y;
 					scooter.direction = 180; 
 					scooter.image_angle = 180; 
 					scooter.image_yscale = -1;
@@ -181,6 +190,9 @@ function scr_scooter_movement_demo(scooter_speed, inst_scooter, inst_puff){
 				case 3 : break;
 				case 4 :
 					scooter_puff.direction = 180;
+					// move the smoke, because the scooter changes orientation
+					scooter_puff.x = scooter.x + 64;
+					scooter_puff.y = scooter.y;
 					scooter.direction = 180; 
 					scooter.image_angle = 180; 
 					break;
