@@ -34,4 +34,5 @@ puff_index = 0;
 global.ui_enabled = true;
 global.ui_surf = -1;
 
-//scr_generate_like_ballons();
+// this stores which UI panel we want to make/populate
+global.ui_panel = "";

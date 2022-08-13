@@ -27,7 +27,9 @@ if (mouse_check_button_pressed(mb_left)) {
 				case 5 :
 				case 6 : break;
 				case 7 : // research icon!
-					scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+					global.ui_panel = "Research";
+					scr_draw_UI_panel(global.ui_panel);
+					//scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
 					break;
 				default : break;
 			}
