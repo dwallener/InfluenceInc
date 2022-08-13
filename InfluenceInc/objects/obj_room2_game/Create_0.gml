@@ -23,7 +23,7 @@ global.inst_scooter.image_angle = 270;
 // offset exhaust to be a little more north of the scooter
 // start the puff puff
 xx = xx;
-yy = yy - 96;
+yy = yy - 80;
 global.inst_puff = instance_create_layer(xx, yy, "Instances", obj_scooter_puff);
 global.inst_puff.speed = 2;
 global.inst_puff.direction = 270;

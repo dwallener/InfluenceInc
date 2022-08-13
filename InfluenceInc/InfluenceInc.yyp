@@ -49,6 +49,7 @@
     {"id":{"name":"spr_patio_coop","path":"sprites/spr_patio_coop/spr_patio_coop.yy",},"order":8,},
     {"id":{"name":"update_hatchery_size_buff","path":"scripts/update_hatchery_size_buff/update_hatchery_size_buff.yy",},"order":7,},
     {"id":{"name":"spr_henhouse_shack","path":"sprites/spr_henhouse_shack/spr_henhouse_shack.yy",},"order":2,},
+    {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},"order":0,},
     {"id":{"name":"update_running_chicken_buff","path":"scripts/update_running_chicken_buff/update_running_chicken_buff.yy",},"order":4,},
     {"id":{"name":"obj_scooter","path":"objects/obj_scooter/obj_scooter.yy",},"order":17,},
     {"id":{"name":"spr_pool_supershack","path":"sprites/spr_pool_supershack/spr_pool_supershack.yy",},"order":6,},
