@@ -20,3 +20,4 @@ xx = tile_size * 7 + tile_size/4;
 yy = tile_size * 2 + tile_size/4;
 inst_icon_chicken = instance_create_layer(xx, yy, "Instances", obj_icon_chicken);
 
+

@@ -33,6 +33,7 @@
     {"id":{"name":"obj_patio_shorthouse","path":"objects/obj_patio_shorthouse/obj_patio_shorthouse.yy",},"order":12,},
     {"id":{"name":"font_droid_22","path":"fonts/font_droid_22/font_droid_22.yy",},"order":1,},
     {"id":{"name":"spr_patio_supershack","path":"sprites/spr_patio_supershack/spr_patio_supershack.yy",},"order":10,},
+    {"id":{"name":"scr_draw_add_followers_button","path":"scripts/scr_draw_add_followers_button/scr_draw_add_followers_button.yy",},"order":18,},
     {"id":{"name":"spr_icon_research","path":"sprites/spr_icon_research/spr_icon_research.yy",},"order":15,},
     {"id":{"name":"update_fleet_size_buff","path":"scripts/update_fleet_size_buff/update_fleet_size_buff.yy",},"order":3,},
     {"id":{"name":"obj_henhouse_shack","path":"objects/obj_henhouse_shack/obj_henhouse_shack.yy",},"order":3,},
