@@ -7,8 +7,8 @@ function scr_get_tile_coords(pos_x, pos_y) {
 	
 	var tile_location = [0,0];
 
-	tile_location[0] = pos_x div 128;
-	tile_location[1] = pos_y div 128;
+	tile_location[0] = pos_y div 128; // tile row
+ 	tile_location[1] = pos_x div 128; // tile column
 	
 	//show_message(string(tile_location[0]) + ", " + string(tile_location[1]));
 	

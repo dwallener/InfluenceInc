@@ -10,6 +10,19 @@ tile_size = global.tile_size;
 
 xx = tile_size * 6 + tile_size/4;
 yy = tile_size * 0 + tile_size/4;
+
+// make the scooter do it's thing
+// eventually this becomes a script to call "whenever"
+
 global.inst_scooter = instance_create_layer(xx, yy,"Instances", obj_scooter);
-global.inst_scooter.speed = 1;
+global.inst_scooter.speed = 2;
 global.inst_scooter.direction = 270;
+global.inst_scooter.image_angle = 270;
+
+// offset exhaust to be a little more north of the scooter
+xx = xx;
+yy = yy - 96;
+global.inst_puff = instance_create_layer(xx, yy, "Instances", obj_scooter_puff);
+global.inst_puff.speed = 2;
+global.inst_puff.direction = 270;
+puff_index = 0;
