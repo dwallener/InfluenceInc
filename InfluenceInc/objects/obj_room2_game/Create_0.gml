@@ -33,3 +33,5 @@ puff_index = 0;
 
 global.ui_enabled = true;
 global.ui_surf = -1;
+
+//scr_generate_like_ballons();

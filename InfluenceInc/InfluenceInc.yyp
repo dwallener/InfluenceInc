@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"spr_like_balloon","path":"sprites/spr_like_balloon/spr_like_balloon.yy",},"order":21,},
+    {"id":{"name":"obj_like_balloon","path":"objects/obj_like_balloon/obj_like_balloon.yy",},"order":19,},
     {"id":{"name":"scr_deduct_henhouse_cost","path":"scripts/scr_deduct_henhouse_cost/scr_deduct_henhouse_cost.yy",},"order":14,},
     {"id":{"name":"scr_calculate_henhouse_cost","path":"scripts/scr_calculate_henhouse_cost/scr_calculate_henhouse_cost.yy",},"order":15,},
     {"id":{"name":"scr_print_SI_num","path":"scripts/scr_print_SI_num/scr_print_SI_num.yy",},"order":13,},
@@ -24,6 +26,7 @@
     {"id":{"name":"spr_puff_big","path":"sprites/spr_puff_big/spr_puff_big.yy",},"order":19,},
     {"id":{"name":"spr_puff_small","path":"sprites/spr_puff_small/spr_puff_small.yy",},"order":20,},
     {"id":{"name":"font_droid_36","path":"fonts/font_droid_36/font_droid_36.yy",},"order":0,},
+    {"id":{"name":"scr_generate_like_ballons","path":"scripts/scr_generate_like_ballons/scr_generate_like_ballons.yy",},"order":19,},
     {"id":{"name":"spr_henhouse_standard","path":"sprites/spr_henhouse_standard/spr_henhouse_standard.yy",},"order":13,},
     {"id":{"name":"obj_room2_game","path":"objects/obj_room2_game/obj_room2_game.yy",},"order":15,},
     {"id":{"name":"scr_get_tile_coords","path":"scripts/scr_get_tile_coords/scr_get_tile_coords.yy",},"order":17,},
