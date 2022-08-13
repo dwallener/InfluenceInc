@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-alarm[0] = 300;
+// start fading out
+image_alpha -= 0.0035;
+
+// reset the alarm
 alarm[1] = 1;
 
