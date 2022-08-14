@@ -29,7 +29,6 @@ if (mouse_check_button_pressed(mb_left)) {
 				case 7 : // research icon!
 					global.ui_panel = "Research";
 					scr_draw_UI_panel(global.ui_panel);
-					//scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
 					break;
 				default : break;
 			}
@@ -38,17 +37,20 @@ if (mouse_check_button_pressed(mb_left)) {
 				// row 0 is empty until col 7
 				case 0 : 
 				case 1 : // Yard 0, 0
-					scr_draw_standard_UI_panel(150, 850, (1024-150), (2048-350), 50, 50, false, c_white );
+					global.ui_panel("HenHouse1");
+					scr_draw_UI_panel(global.ui_panel);
 					break;
 				case 2 : // Yard 0, 1
-					scr_draw_standard_UI_panel(150, 850, (1024-150), (2048-350), 50, 50, false, c_white );
+					global.ui_panel("HenHouse2");
+					scr_draw_UI_panel(global.ui_panel);
 					break;
 				case 3 : // na
 				case 4 : // na
 				case 5 : // na
 				case 6 : break;
 				case 7 : // chicken icon!
-					scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+					global.ui_panel = "Chicken";
+					scr_draw_UI_panel(global.ui_panel);
 					break;
 				default : break;
 			}

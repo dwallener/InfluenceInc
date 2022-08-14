@@ -5,54 +5,57 @@ function scr_draw_UI_panel(ui_panel){
 	
 	// set up bits common to all
 	
+	// Let's drop the Surface creation for now
+/*	
 	// set the surface, create if it doesn't already exist
 	if (!surface_exists(global.ui_surf) ) {
-		global.ui_surf = surface_create ( 1024, 2048 );
+		global.ui_surf = surface_create ( 1024, 2048);
 	}
 	surface_set_target(global.ui_surf);
-	draw_set_color(c_white);
-	
+	draw_clear_alpha(c_black, 0);
+*/	
 	// set up bits unique to each	
 	switch (ui_panel) {
 		case "Research" :
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;
 		case "Chicken" :
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;
 		case "HenHouse1" :
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;
 		case "HenHouse2" :
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;
 		case "HenHouse3" :
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;
 		case "HenHouse4" :
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;		
 		case "Silo1"	:
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;		
 		case "Silo2"	:
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;		
 		case "Silo3"	:
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;		
 		case "Silo4"	:
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;		
 		case "Shipping"	:
-			scr_draw_standard_UI_panel(150, 150, (1024-150), (2048-150), 50, 50, false, c_white );
+			inst_ui_panel = instance_create_layer(0, 0, "Instances", obj_ui_panel_white);
 			break;		
 		default : break;
 	}
 
+/*
 	// return to normal surface, draw stuff
 	surface_reset_target();
-	draw_surface(global.ui_surf, 0, 0);
-
+	draw_surface_ext(global.ui_surf, 0, 0, 1, 1, 0, c_white, 0.5);
+*/
 
 }
