@@ -3,4 +3,5 @@
 
 alarm[0] = irandom_range(90, 450);
 
-audio_play_sound(snd_bg_1_komiko_shopping, 20, true);
+scooter_snd = audio_play_sound(snd_motorcycle_idle_01, 20, true);
+audio_sound_gain(scooter_snd, 1, 0);

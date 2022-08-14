@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 // start background music
-audio_play_sound(snd_bg_1_komiko_shopping, 10, true);
+bg_music = audio_play_sound(snd_bg_1_komiko_shopping, 10, true);
+audio_sound_gain(bg_music, 0.25, 0);
 
 // Load Scooter icon
 // Put this in tile row 1, column 7, centered
