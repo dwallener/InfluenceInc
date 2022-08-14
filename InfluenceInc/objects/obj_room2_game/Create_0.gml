@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// start background music
+audio_play_sound(snd_bg_1_komiko_shopping, 10, true);
+
 // Load Scooter icon
 // Put this in tile row 1, column 7, centered
 

@@ -6,6 +6,7 @@
     {"id":{"name":"obj_like_balloon","path":"objects/obj_like_balloon/obj_like_balloon.yy",},"order":19,},
     {"id":{"name":"scr_deduct_henhouse_cost","path":"scripts/scr_deduct_henhouse_cost/scr_deduct_henhouse_cost.yy",},"order":14,},
     {"id":{"name":"scr_calculate_henhouse_cost","path":"scripts/scr_calculate_henhouse_cost/scr_calculate_henhouse_cost.yy",},"order":15,},
+    {"id":{"name":"snd_motorcycle_idle_01","path":"sounds/snd_motorcycle_idle_01/snd_motorcycle_idle_01.yy",},"order":1,},
     {"id":{"name":"scr_print_SI_num","path":"scripts/scr_print_SI_num/scr_print_SI_num.yy",},"order":13,},
     {"id":{"name":"obj_henhouse_supershack","path":"objects/obj_henhouse_supershack/obj_henhouse_supershack.yy",},"order":4,},
     {"id":{"name":"update_hatching_rate_buff","path":"scripts/update_hatching_rate_buff/update_hatching_rate_buff.yy",},"order":6,},
@@ -78,7 +79,9 @@
     {"id":{"name":"scr_define_research_upgrade_button_locations","path":"scripts/scr_define_research_upgrade_button_locations/scr_define_research_upgrade_button_locations.yy",},"order":8,},
     {"id":{"name":"spr_camera_flash","path":"sprites/spr_camera_flash/spr_camera_flash.yy",},"order":22,},
     {"id":{"name":"spr_icon_chicken","path":"sprites/spr_icon_chicken/spr_icon_chicken.yy",},"order":16,},
+    {"id":{"name":"snd_bg_1_komiko_shopping","path":"sounds/snd_bg_1_komiko_shopping/snd_bg_1_komiko_shopping.yy",},"order":0,},
     {"id":{"name":"ts_basic","path":"tilesets/ts_basic/ts_basic.yy",},"order":0,},
+    {"id":{"name":"spr_camera_flash_02","path":"sprites/spr_camera_flash_02/spr_camera_flash_02.yy",},"order":26,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

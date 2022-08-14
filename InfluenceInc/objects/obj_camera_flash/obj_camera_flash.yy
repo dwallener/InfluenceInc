@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_camera_flash",
-    "path": "sprites/spr_camera_flash/spr_camera_flash.yy",
+    "name": "spr_camera_flash_02",
+    "path": "sprites/spr_camera_flash_02/spr_camera_flash_02.yy",
   },
   "solid": false,
   "visible": true,

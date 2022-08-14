@@ -3,3 +3,4 @@
 
 alarm[0] = irandom_range(90, 450);
 
+audio_play_sound(snd_bg_1_komiko_shopping, 20, true);
