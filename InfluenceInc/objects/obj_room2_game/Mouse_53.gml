@@ -16,10 +16,10 @@ if (mouse_check_button_pressed(mb_left)) {
 	// make the hitboxes for menu items tile-size big (this will be refined as tile size drops
 	
 	switch (tile_clicked[0]) { // row
-		case 0 :
+		case 0 : // row 0
 			switch (tile_clicked[1]) { // col
 				// row 0 is empty until col 7
-				case 0 : 
+				case 0 :
 				case 1 :
 				case 2 :
 				case 3 :
@@ -28,11 +28,19 @@ if (mouse_check_button_pressed(mb_left)) {
 				case 6 : break;
 				case 7 : // research icon!
 					global.ui_panel = "Research";
-					scr_draw_UI_panel(global.ui_panel);
+//					global.inst_gui_1 = instance_create_layer(0, 600, "Gui_1", obj_gui_1 );
+//					global.inst_gui_3 = instance_create_layer(0, 600, "Gui_3", obj_gui_3_research); 
+//					global.inst_gui_2 = instance_create_layer(0, 600, "Gui_2", obj_gui_2_research);
+					global.inst_gui_1 = instance_create_depth(0, 600, -15997, obj_gui_1 );
+					global.inst_gui_2 = instance_create_depth(0, 600, -15998, obj_gui_2_research); 
+//					depth = -15998;
+//					draw_sprite_part(spr_gui_2_research, image_index, 0, 600, 1024, 600, 0, 600);
+					global.inst_gui_3 = instance_create_depth(0, 600, -15999, obj_gui_3_research);
 					break;
 				default : break;
 			}
-		case 1 : 
+			break;
+		case 1 : // row 1
 			switch (tile_clicked[1]) { // col
 				// row 0 is empty until col 7
 				case 0 : 
@@ -55,7 +63,6 @@ if (mouse_check_button_pressed(mb_left)) {
 				default : break;
 			}
 			break;
-		default : break;
 		case 2 : 
 			switch (tile_clicked[1]) { // col
 				// row 0 is empty until col 7
