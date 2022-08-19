@@ -28,14 +28,9 @@ if (mouse_check_button_pressed(mb_left)) {
 				case 6 : break;
 				case 7 : // research icon!
 					global.ui_panel = "Research";
-//					global.inst_gui_1 = instance_create_layer(0, 600, "Gui_1", obj_gui_1 );
-//					global.inst_gui_3 = instance_create_layer(0, 600, "Gui_3", obj_gui_3_research); 
-//					global.inst_gui_2 = instance_create_layer(0, 600, "Gui_2", obj_gui_2_research);
 					global.inst_gui_1 = instance_create_depth(0, 600, -15997, obj_gui_1 );
-					global.inst_gui_2 = instance_create_depth(0, 600, -15998, obj_gui_2_research); 
-//					depth = -15998;
-//					draw_sprite_part(spr_gui_2_research, image_index, 0, 600, 1024, 600, 0, 600);
-					global.inst_gui_3 = instance_create_depth(0, 600, -15999, obj_gui_3_research);
+					//global.inst_gui_2 = instance_create_depth(0, 600, -15998, obj_gui_2_research); 
+					//global.inst_gui_3 = instance_create_depth(0, 600, -15999, obj_gui_3_research);
 					break;
 				default : break;
 			}

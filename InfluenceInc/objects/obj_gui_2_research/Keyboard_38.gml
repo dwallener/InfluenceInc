@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// current_y++;
-
+if (current_y < 4096) {
+	current_y++;
+}
 

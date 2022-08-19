@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// current_y++;
-
-
+if (current_y > 0) {
+	current_y--;
+}
