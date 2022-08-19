@@ -97,3 +97,5 @@ if (instance_exists(global.inst_scooter)) {
 		instance_destroy(global.inst_puff);
 	}
 }
+
+
