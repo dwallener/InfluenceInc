@@ -6,11 +6,12 @@
 
 var lcl_speed = 128;
 // kill the instances if they go offscreen - exit is out the west
-if (instance_exists(global.inst_scooter)) {
+if (instance_exists(global.inst_scooter) & instance_exists(global.inst_vespa)) {
 	if (global.inst_scooter.x >= 0) {
 		scr_scooter_movement_demo(lcl_speed, global.inst_scooter, global.inst_puff);
-		// show_message ("In Step!");
+		scr_scooter_movement_demo(lcl_speed, global.inst_vespa, global.inst_puff);
 
+		// Move this to the scooter/vespa object
 		// spin through a 15 step sequence of changing the scooter exhaust
 		puff_index++;
 
@@ -94,6 +95,7 @@ if (instance_exists(global.inst_scooter)) {
 	else {
 		// destroy the instances
 		instance_destroy(global.inst_scooter);
+		instance_destroy(global.inst_vespa);
 		instance_destroy(global.inst_puff);
 	}
 }

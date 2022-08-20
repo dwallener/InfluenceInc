@@ -65,7 +65,11 @@ layer_depth(layer_id, 10000);
 */
 
 // play with new Vespa sprites
-global.inst_vespa = instance_create_layer(100, 100, "Instances", obj_vespa);
+global.inst_vespa = instance_create_layer(xx, yy, "Instances", obj_vespa);
 global.inst_vespa.image_scalex = 0.25;
 global.inst_vespa.image_scaley = 0.25;
+
+global.inst_vespa.speed = 2;
+global.inst_vespa.direction = 270;
+//global.inst_vespa.image_angle = 270;
 

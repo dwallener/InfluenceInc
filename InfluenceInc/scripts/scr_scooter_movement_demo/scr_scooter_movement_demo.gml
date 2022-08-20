@@ -9,7 +9,7 @@
 function scr_scooter_movement_demo(scooter_speed, inst_scooter, inst_puff){
 	
 	// grab the scooter instance
-	scooter = global.inst_scooter;
+	scooter = inst_scooter;
 	scooter_puff = global.inst_puff;
 	
 	// we know the demo scooter is coming in from the North, row 0, column 7
