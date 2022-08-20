@@ -29,8 +29,6 @@ if (mouse_check_button_pressed(mb_left)) {
 				case 7 : // research icon!
 					global.ui_panel = "Research";
 					global.inst_gui_1 = instance_create_depth(0, 600, -15997, obj_gui_1 );
-					//global.inst_gui_2 = instance_create_depth(0, 600, -15998, obj_gui_2_research); 
-					//global.inst_gui_3 = instance_create_depth(0, 600, -15999, obj_gui_3_research);
 					break;
 				default : break;
 			}
@@ -52,8 +50,9 @@ if (mouse_check_button_pressed(mb_left)) {
 				case 5 : // na
 				case 6 : break;
 				case 7 : // chicken icon!
-					global.ui_panel = "Chicken";
-					scr_draw_UI_panel(global.ui_panel);
+					global.ui_panel = "Boost";
+					global.inst_gui_1 = instance_create_depth(0, 600, -15997, obj_gui_1 );
+					//scr_draw_UI_panel(global.ui_panel);
 					break;
 				default : break;
 			}
