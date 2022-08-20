@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+// Place the main UI panel
+global.inst_ui_main = instance_create_layer(0, 25, "Instances", obj_main_ui);
+
 // start background music
 bg_music = audio_play_sound(snd_bg_1_komiko_shopping, 10, true);
 audio_sound_gain(bg_music, 0.35, 0);
