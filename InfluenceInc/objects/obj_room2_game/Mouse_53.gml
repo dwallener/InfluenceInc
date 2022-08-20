@@ -97,6 +97,21 @@ if (mouse_check_button_pressed(mb_left)) {
 				default : break;
 			}
 			break;
+		case 4 : 
+		case 5 :
+		case 6 :
+		case 7 :
+		case 8 :
+		case 9 :
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14: 
+			break;
+		case 15:
+			scr_generate_like_ballons();
+			break;
 		default : break;
 	}
 	
