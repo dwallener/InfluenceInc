@@ -50,23 +50,6 @@ global.inst_gui_1 = -1;
 global.inst_gui_2 = -1;
 global.inst_gui_3 = -1;
 
-// let's define all the layer depths
-/*
-layer_id = layer_get_id("Background");
-layer_depth(layer_id, 16000);
-layer_id = layer_get_id("Tile");
-layer_depth(layer_id, 15000);
-layer_id = layer_get_id("Instances");
-layer_depth(layer_id, 14000);
-layer_id = layer_get_id("Gui_1");
-layer_depth(layer_id, 13000);
-layer_id = layer_get_id("Gui_2");
-layer_depth(layer_id, 12000);
-layer_id = layer_get_id("Gui_3");
-layer_depth(layer_id, 11000);
-layer_id = layer_get_id("Balloons");
-layer_depth(layer_id, 10000);
-*/
 
 // play with new Vespa sprites
 global.inst_vespa = instance_create_layer(xx, yy, "Instances", obj_vespa);

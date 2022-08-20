@@ -11,7 +11,7 @@ tile_size = global.tile_size;
 // Put this in tile column 8, row 2 centered
 
 xx = tile_size * 7 + tile_size/2;
-yy = tile_size * 1 - tile_size/2;
+yy = tile_size * 2 - tile_size/2;
 draw_set_color(c_white);
 draw_circle(xx, yy, 40, false);
 inst_icon_research = instance_create_layer(xx, yy, "Instances", obj_icon_research);
@@ -19,7 +19,7 @@ inst_icon_research = instance_create_layer(xx, yy, "Instances", obj_icon_researc
 // Load Chicken icon
 // Put this in tile column 8, row 3 centered
 xx = tile_size * 7 + tile_size/2;
-yy = tile_size * 2 - tile_size/2;
+yy = tile_size * 3 - tile_size/2;
 draw_set_color(c_white);
 draw_circle(xx, yy, 40, false);
 inst_icon_chicken = instance_create_layer(xx, yy, "Instances", obj_icon_chicken);
