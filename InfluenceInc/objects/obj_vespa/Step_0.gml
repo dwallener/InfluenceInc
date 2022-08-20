@@ -1,6 +1,149 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+// where should we go?
+// get tile coords
+
+var tile = [0,0];
+tile = scr_get_tile_coords (x,y);
+
+switch (tile[0]) { // row
+	case 0:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	case 1:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	case 2:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	case 3:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	case 4:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	case 5:
+		switch (tile[1]) { // col
+			case 4 :
+				direction = 270;
+				break;
+			case 6 :
+				direction = 180;
+				break;
+			default:
+				break;
+		}
+		break;
+	case 6:
+		switch (tile[1]) { // col
+			case 6 :
+			default:
+				break;
+		}
+		break;
+	case 7:
+		switch (tile[1]) { // col
+			case 6 :
+			default:
+				break;
+		}
+		break;
+	case 8:
+		switch (tile[1]) { // col
+			case 6 :
+			default:
+				break;
+		}
+		break;
+	case 9:
+		switch (tile[1]) { // col
+			case 6 :
+			default:
+				break;
+		}
+		break;
+	case 10:
+		switch (tile[1]) { // col
+			case 0 :
+				show_message("Destroying...");
+				instance_destroy();
+				break;
+			case 4 :
+				direction = 180;
+				break;
+			default:
+				break;
+		}
+		break;
+	case 11:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	case 12:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	case 13:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	case 14:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	case 15:
+		switch (tile[1]) { // col
+			default:
+				break;
+		}
+		break;
+	default:
+		break;
+}
+
+
+// make sure orientation is right
+
+switch(direction) {
+	case 0	: // up
+		image_angle = 0;
+	case 90 : // right
+		image_angle = 0;
+	case 180: // down
+		image_angle = 0;
+	case 270: // left
+		image_angle = 0;
+	default	:
+		break;
+}
+
+// make it pulse
+
 pulse_step++;
 pulse_step = pulse_step % 32;
 

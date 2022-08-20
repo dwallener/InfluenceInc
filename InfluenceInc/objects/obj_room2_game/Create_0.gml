@@ -3,7 +3,7 @@
 
 
 // Place the main UI panel
-global.inst_ui_main = instance_create_layer(0, 25, "Instances", obj_main_ui);
+global.inst_ui_main = instance_create_layer(0, 15, "Instances", obj_main_ui);
 
 // start background music
 bg_music = audio_play_sound(snd_bg_1_komiko_shopping, 10, true);
@@ -24,6 +24,8 @@ yy = tile_size * 0 + tile_size/4;
 
 // start the scooter
 global.inst_scooter = instance_create_layer(xx, yy,"Instances", obj_scooter);
+// make first scooter invisible
+global.inst_scooter.visible = true;
 global.inst_scooter.speed = 2;
 global.inst_scooter.direction = 270;
 global.inst_scooter.image_angle = 270;
@@ -38,7 +40,6 @@ global.inst_puff.direction = 270;
 puff_index = 0;
 
 // create the UI surface
-
 global.ui_enabled = true;
 global.ui_surf = -1;
 
@@ -51,12 +52,5 @@ global.inst_gui_2 = -1;
 global.inst_gui_3 = -1;
 
 
-// play with new Vespa sprites
-global.inst_vespa = instance_create_layer(xx, yy, "Instances", obj_vespa);
-global.inst_vespa.image_scalex = 0.25;
-global.inst_vespa.image_scaley = 0.25;
-
-global.inst_vespa.speed = 2;
-global.inst_vespa.direction = 270;
-//global.inst_vespa.image_angle = 270;
-
+// Send paparazzi alarm
+alarm[0] = irandom_range(30, 300);
