@@ -22,22 +22,6 @@ yy = tile_size * 0 + tile_size/4;
 // make the scooter do it's thing
 // eventually this becomes a script to call "whenever"
 
-// start the scooter
-global.inst_scooter = instance_create_layer(xx, yy,"Instances", obj_scooter);
-// make first scooter invisible
-global.inst_scooter.visible = true;
-global.inst_scooter.speed = 2;
-global.inst_scooter.direction = 270;
-global.inst_scooter.image_angle = 270;
-
-// offset exhaust to be a little more north of the scooter
-// start the puff puff
-xx = xx;
-yy = yy - 80;
-global.inst_puff = instance_create_layer(xx, yy, "Instances", obj_scooter_puff);
-global.inst_puff.speed = 2;
-global.inst_puff.direction = 270;
-puff_index = 0;
 
 // create the UI surface
 global.ui_enabled = true;

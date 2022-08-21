@@ -1,6 +1,29 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// make sure orientation is right
+
+switch(direction) {
+	case 0	: // up
+		image_angle = 0;
+		sprite_index = spr_vespa_front;
+		break;
+	case 90 : // right
+		image_angle = 0;
+		sprite_index = spr_vespa_side;
+		break;
+	case 180: // down
+		image_angle = 0;
+		sprite_index = spr_vespa_side;
+		break;
+	case 270: // left
+		image_angle = 0;
+		sprite_index = spr_vespa_front;
+		break;
+	default	:
+		break;
+}
+
 
 // where should we go?
 // get tile coords
@@ -82,7 +105,6 @@ switch (tile[0]) { // row
 	case 10:
 		switch (tile[1]) { // col
 			case 0 :
-				show_message("Destroying...");
 				instance_destroy();
 				break;
 			case 4 :
@@ -126,21 +148,6 @@ switch (tile[0]) { // row
 		break;
 }
 
-
-// make sure orientation is right
-
-switch(direction) {
-	case 0	: // up
-		image_angle = 0;
-	case 90 : // right
-		image_angle = 0;
-	case 180: // down
-		image_angle = 0;
-	case 270: // left
-		image_angle = 0;
-	default	:
-		break;
-}
 
 // make it pulse
 
