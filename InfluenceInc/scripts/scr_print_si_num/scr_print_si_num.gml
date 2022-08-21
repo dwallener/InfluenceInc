@@ -31,10 +31,10 @@ function scr_print_SI_num(big_number){
 		small_string = string(floor(big_number/1000000000000)) + si_suffix[3];
 	}
 	if (big_number > 1000000000) {
-		small_string = string(floor(big_number/1000000000)) + si_suffix[2];
+		small_string = string((big_number/1000000000)) + si_suffix[2];
 	}
 	if (big_number > 1000000) {
-		small_string = string(floor(big_number/1000000)) + si_suffix[1];
+		small_string = string((big_number/1000000)) + si_suffix[1];
 	}
 	if (big_number > 1000) {
 		small_string = string((big_number/1000)) + si_suffix[0];
