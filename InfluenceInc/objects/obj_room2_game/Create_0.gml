@@ -38,3 +38,7 @@ global.inst_gui_3 = -1;
 
 // Send paparazzi alarm
 alarm[0] = irandom_range(30, 300);
+
+// Ok let's start the math...
+
+global.total_followers = 0;

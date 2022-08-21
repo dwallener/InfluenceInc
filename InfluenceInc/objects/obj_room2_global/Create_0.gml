@@ -25,3 +25,8 @@ draw_circle(xx, yy, 40, false);
 inst_icon_chicken = instance_create_layer(xx, yy, "Instances", obj_icon_chicken);
 
 
+// constants, like coordinates for UI elements
+global.followers_x = 315;
+global.followers_y = 93;
+global.total_followers_inc = 100;
+

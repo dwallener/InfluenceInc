@@ -13,5 +13,8 @@ scr_draw_add_followers_button(200, 1900, 824, 2000, 50, 50, false, c_red);
 surface_reset_target();
 draw_surface(global.ui_surf, 0, 0);
 	
+draw_set_color(c_white);
+draw_set_font(font_droid_22);
+draw_text(global.followers_x, global.followers_y, string(total_followers_SI));
 
 

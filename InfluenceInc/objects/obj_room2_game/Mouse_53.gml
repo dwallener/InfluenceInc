@@ -111,6 +111,7 @@ if (mouse_check_button_pressed(mb_left)) {
 			break;
 		case 15:
 			scr_generate_like_ballons();
+			global.total_followers += global.total_followers_inc;
 			break;
 		default : break;
 	}
