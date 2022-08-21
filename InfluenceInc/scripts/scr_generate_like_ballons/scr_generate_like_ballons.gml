@@ -14,5 +14,4 @@ function scr_generate_like_ballons(){
 			direction : irandom_range(70,110)
 		});
 	}
-
 }
