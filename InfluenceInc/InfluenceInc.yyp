@@ -141,6 +141,7 @@
     {"CopyToMask":-1,"filePath":"datafiles/test_images","resourceVersion":"1.0","name":"tent_01.jpg","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/test_images","resourceVersion":"1.0","name":"shack_01.jpg","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/test_images","resourceVersion":"1.0","name":"bigger_shack_01.jpg","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ResearchTreeTransition.xlsx","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2022.800.0.161",
