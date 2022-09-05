@@ -98,7 +98,20 @@ if (mouse_check_button_pressed(mb_left)) {
 			}
 			break;
 		case 4 : 
-		case 5 :
+		case 5 : // handle Research GUI destruction
+			switch(tile_clicked[1]) {
+				case 7:
+					if (global.ui_panel = "Research") {
+						instance_destroy(obj_gui_1);
+						instance_destroy(obj_gui_2_research);
+						instance_destroy(obj_gui_3_research);
+						global.ui_panel = "";
+						//show_message("Tile 5,7");
+					}
+					break;
+				default: break;
+			}
+				
 		case 6 :
 		case 7 :
 		case 8 :
