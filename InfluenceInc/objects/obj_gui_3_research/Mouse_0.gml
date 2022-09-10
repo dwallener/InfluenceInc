@@ -7,7 +7,7 @@ var tile  = [0,0];
 
 tile = scr_get_tile_coords(mouse_x, mouse_y);
 
-show_message(string(tile[0]) + " " + string(tile[1]));
+//show_message(string(tile[0]) + " " + string(tile[1]));
 
 if ((tile[0] = 7) & (tile[1] = 5)) {
 	// self

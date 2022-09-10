@@ -106,7 +106,6 @@ if (mouse_check_button_pressed(mb_left)) {
 						instance_destroy(obj_gui_2_research);
 						instance_destroy(obj_gui_3_research);
 						global.ui_panel = "";
-						//show_message("Tile 5,7");
 					}
 					break;
 				default: break;
