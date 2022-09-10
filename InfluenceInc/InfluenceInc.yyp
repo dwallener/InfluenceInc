@@ -23,7 +23,7 @@
     {"id":{"name":"draw_plus_box","path":"scripts/draw_plus_box/draw_plus_box.yy",},"order":0,},
     {"id":{"name":"scr_display_henhouse_2","path":"scripts/scr_display_henhouse_2/scr_display_henhouse_2.yy",},"order":11,},
     {"id":{"name":"update_shipping_capacity_buff","path":"scripts/update_shipping_capacity_buff/update_shipping_capacity_buff.yy",},"order":5,},
-    {"id":{"name":"obj_scooter_puff","path":"objects/obj_scooter_puff/obj_scooter_puff.yy",},"order":18,},
+    {"id":{"name":"obj_scooter_puff","path":"objects/obj_scooter_puff/obj_scooter_puff.yy",},"order":22,},
     {"id":{"name":"font_showcard_36","path":"fonts/font_showcard_36/font_showcard_36.yy",},"order":3,},
     {"id":{"name":"spr_pool_coop","path":"sprites/spr_pool_coop/spr_pool_coop.yy",},"order":5,},
     {"id":{"name":"obj_pool_coop","path":"objects/obj_pool_coop/obj_pool_coop.yy",},"order":5,},

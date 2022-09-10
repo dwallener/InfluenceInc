@@ -3,7 +3,7 @@
   "option_ios_bundle_name": "com.maggiesfarm.influence",
   "option_ios_version": "0.1.0",
   "option_ios_output_dir": "~/gamemakerstudio2",
-  "option_ios_team_id": "",
+  "option_ios_team_id": "8K3Q9WX2RF",
   "option_ios_orientation_portrait": true,
   "option_ios_orientation_portrait_flipped": true,
   "option_ios_orientation_landscape": true,

@@ -6,4 +6,4 @@ flickVelX = event_data[?"diffX"];
 flickVelY = event_data[?"diffY"];
 speed =  abs(flickVelY);
 
-//show_message_async("Flick!" + " " + "DiffX: " + string(flickVelX) + " " + "Diffy: " + string(flickVelY));
+show_message_async("Flick!" + " " + "DiffX: " + string(flickVelX) + " " + "Diffy: " + string(flickVelY));
