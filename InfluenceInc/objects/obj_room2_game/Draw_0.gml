@@ -15,6 +15,10 @@ draw_surface(global.ui_surf, 0, 0);
 	
 draw_set_color(c_white);
 draw_set_font(font_droid_22);
+
+// update followers
 draw_text(global.followers_x, global.followers_y, string(total_followers_SI));
 
 
+// update cash
+scr_update_cash(global.cash, global.earnings_per_s);

@@ -30,3 +30,36 @@ global.followers_x = 315;
 global.followers_y = 93;
 global.total_followers_inc = 100;
 
+// start setting up Economy values
+// value per like, this is defined by player level
+global.ecpm_values = [	0.25, 
+						1.25, 
+						6.25, 
+						30, 
+						150, 
+						700, 
+						3000, 
+						12500, 
+						50000, 
+						175000, 
+						525000, 
+						1500000, 
+						10000000,
+						1000000000,
+						100000000000,
+						1000000000000,
+						15000000000000,
+						100000000000000,
+						0.0];
+global.player_level = 0; // the current player level
+global.ecpm_value = global.ecpm_values[global.player_level];
+global.cash = 0;
+
+// base rate is one impression every 30 seconds
+global.impression_growth_rate = 1/30;
+
+// impressions - start with 0
+global.impressions = 0;
+
+// current earnings rate
+global.earnings_per_s = 0;

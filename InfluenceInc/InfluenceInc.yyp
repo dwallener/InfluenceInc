@@ -45,6 +45,7 @@
     {"id":{"name":"obj_gui_2_boost","path":"objects/obj_gui_2_boost/obj_gui_2_boost.yy",},"order":27,},
     {"id":{"name":"spr_gui_3_research","path":"sprites/spr_gui_3_research/spr_gui_3_research.yy",},"order":27,},
     {"id":{"name":"obj_icon_chicken","path":"objects/obj_icon_chicken/obj_icon_chicken.yy",},"order":14,},
+    {"id":{"name":"scr_update_cash","path":"scripts/scr_update_cash/scr_update_cash.yy",},"order":23,},
     {"id":{"name":"update_laying_rate_buff","path":"scripts/update_laying_rate_buff/update_laying_rate_buff.yy",},"order":2,},
     {"id":{"name":"obj_patio_shorthouse","path":"objects/obj_patio_shorthouse/obj_patio_shorthouse.yy",},"order":12,},
     {"id":{"name":"font_droid_22","path":"fonts/font_droid_22/font_droid_22.yy",},"order":1,},
